@@ -16,7 +16,7 @@ export default function HomePage(pros: any) {
                         />
                     }
                 >
-                    <p>Card content</p>
+                    <a href="https://www.youtube.com/" target="_blank">goto</a>
                 </Card>
 
                 <Col span={1}/>
