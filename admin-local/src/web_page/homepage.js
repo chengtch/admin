@@ -6,11 +6,13 @@ export default function HomePage(pros: any) {
     return (
         <div>
             <Row>
-                <Card title="Card title" bordered={true} style={{ width: 500 }}
+                <Card title="Youtube" bordered={true} style={{ width: 400 }}
                     cover={
                         <img
+                            height={120}
+                            width={20}
                             alt="youtube"
-                            src="./photo/youtube.png"
+                            src="https://github.com/chengtch/admin/blob/main/admin-local/src/web_page/photo/youtube.png?raw=true"
                         />
                     }
                 >
@@ -18,14 +20,14 @@ export default function HomePage(pros: any) {
                 </Card>
 
                 <Col span={1}/>
-                <Card title="Card title" bordered={true} style={{ width: 500 }}>
+                <Card title="Card title" bordered={true} style={{ width: 400 }}>
                     <p>Card content</p>
                     <p>Card content</p>
                     <p>Card content</p>
                 </Card>
 
                 <Col span={1}/>
-                <Card title="Card title" bordered={true} style={{ width: 500 }}>
+                <Card title="Card title" bordered={true} style={{ width: 400 }}>
                     <p>Card content</p>
                     <p>Card content</p>
                     <p>Card content</p>
@@ -34,21 +36,21 @@ export default function HomePage(pros: any) {
 
             <br />
             <Row>
-                <Card title="Card title" bordered={true} style={{ width: 500 }}>
+                <Card title="Card title" bordered={true} style={{ width: 400 }}>
                     <p>Card content</p>
                     <p>Card content</p>
                     <p>Card content</p>
                 </Card>
 
                 <Col span={1}/>
-                <Card title="Card title" bordered={true} style={{ width: 500 }}>
+                <Card title="Card title" bordered={true} style={{ width: 400 }}>
                     <p>Card content</p>
                     <p>Card content</p>
                     <p>Card content</p>
                 </Card>
 
                 <Col span={1}/>
-                <Card title="Card title" bordered={true} style={{ width: 500 }}>
+                <Card title="Card title" bordered={true} style={{ width: 400 }}>
                     <p>Card content</p>
                     <p>Card content</p>
                     <p>Card content</p>
@@ -57,21 +59,21 @@ export default function HomePage(pros: any) {
 
             <br />
             <Row>
-                <Card title="Card title" bordered={true} style={{ width: 500 }}>
+                <Card title="Card title" bordered={true} style={{ width: 400 }}>
                     <p>Card content</p>
                     <p>Card content</p>
                     <p>Card content</p>
                 </Card>
 
                 <Col span={1}/>
-                <Card title="Card title" bordered={true} style={{ width: 500 }}>
+                <Card title="Card title" bordered={true} style={{ width: 400 }}>
                     <p>Card content</p>
                     <p>Card content</p>
                     <p>Card content</p>
                 </Card>
 
                 <Col span={1}/>
-                <Card title="Card title" bordered={true} style={{ width: 500 }}>
+                <Card title="Card title" bordered={true} style={{ width: 400 }}>
                     <p>Card content</p>
                     <p>Card content</p>
                     <p>Card content</p>
